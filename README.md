@@ -48,3 +48,5 @@ Simulation Commands:
       $    roslaunch fiducial_slam fiducial_slam.launch
       
       $    roslaunch fiducial_slam fiducial_rviz.launch
+
+Feel free to contact me about any questions/problems on installing/running this project.
