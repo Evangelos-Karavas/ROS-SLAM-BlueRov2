@@ -1,0 +1,29 @@
+xrandr --newmode "1920x1080"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+xrandr --addmode Virtual1 1920x1080
+xrandr --output Virtual1 --mode 1920x1080
+
+
+
+
+
+
+
+//gia camera aruco_detect parameters
+  <arg name="camera" default="/usb_cam"/>
+  <arg name="image" default="/image_raw"/>
+
+//gia fiducial_launch file
+  <arg name="camera" default="/bluerov2/bluerov2/cameraback"/>
+  <arg name="map_frame" default="world"/>
+  <arg name="odom_frame" default=""/>
+  <arg name="base_frame" default="bluerov2/base_footprint"/>
+  <arg name="publish_tf" default="true"/>
+  <arg name="tf_publish_interval" default="1.0"/>
+  <arg name="future_date_transforms" default="0.1"/>
+  <arg name="publish_6dof_pose" default="false"/>
+  <arg name="systematic_error" default="0.01"/>
+  <arg name="covariance_diagonal" default="True"/>
+
+
+
+QGroundControl: ./QGroundControl.AppImage
