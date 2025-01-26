@@ -35,8 +35,8 @@ SLAM Commands:
       
       $   roslaunch fiducial_slam fiducial_rviz.launch
       
-========================================================================================================================================================================================
-      
+======================================================================================================================================================
+
       $  roslaunch bluerov_ros_playground user_mav.launch
 
       $  rosrun usb_cam usb_cam_node _camera_name:='usb_cam' _cama_frame_id:='usb_cam' _video_device:='/dev/video2' _pixel_format:='yuyv'
