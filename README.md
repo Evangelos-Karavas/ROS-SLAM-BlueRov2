@@ -10,7 +10,7 @@ To run this project the user needs to install extra packages and the dependencie
       -raspicam_node
       -bluerov_ros_playground (Not needed)
 
-    All the commands needed are located in a .txt file inside the All_Files_Neeed directory 
+    All the commands needed are located in a .txt file inside the All_Files_For_Use directory 
     *For more information look at the commands file provided.
 
     (The next 2 packages are only necessary for simulation)  
