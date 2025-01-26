@@ -4,15 +4,14 @@ Simultaneous Localization and Mapping algorithm for UUV (Blue Rov 2) on ROS-Melo
 Each Package inside the /src directory has a README.md file giving instructions on how to install each package properly  
 To run this project the user needs to install the below extra packages and the dependencies into their ROS1-Melodic workspace
 
-    (Extra Packages needed)  
+  (Extra Packages needed)  
   
       -mavros
       -raspicam_node
 
-    All the commands needed are located in a .txt file inside the All_Files_For_Use directory 
-    *For more information look at the commands file provided.
+  All the commands needed are located in a .txt file inside the /Files directory 
 
-    (The next 2 packages are only necessary for simulation)  
+  (The next 2 packages are only necessary for simulation)  
     
       -uuv_simulator  
       -freebuoyancy_gazebo   
