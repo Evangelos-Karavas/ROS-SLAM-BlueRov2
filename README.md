@@ -24,9 +24,9 @@ Also the [QGroundControlApp]([quora.com/profile/Ashish-Kulkarni-100]([https://bl
 
 SLAM Commands:
     
-      $  roslaunch bluerov bluerov_r1.launch
+      $   roslaunch bluerov bluerov_r1.launch
 
-      $  rosrun usb_cam usb_cam_node _camera_name:='usb_cam' _cama_frame_id:='usb_cam' _video_device:='/dev/video2' _pixel_format:='yuyv'
+      $   rosrun usb_cam usb_cam_node _camera_name:='usb_cam' _cama_frame_id:='usb_cam' _video_device:='/dev/video2' _pixel_format:='yuyv'
       
       $   roslaunch aruco_detect aruco_detect.launch
       
@@ -36,12 +36,12 @@ SLAM Commands:
       
 Simulation Commands:
 
-      $  roslaunch bluerov_ros_playground user_mav.launch
+      $   roslaunch bluerov_ros_playground user_mav.launch
 
-      $  rosrun usb_cam usb_cam_node _camera_name:='usb_cam' _cama_frame_id:='usb_cam' _video_device:='/dev/video2' _pixel_format:='yuyv'
+      $   rosrun usb_cam usb_cam_node _camera_name:='usb_cam' _cama_frame_id:='usb_cam' _video_device:='/dev/video2' _pixel_format:='yuyv'
       
-      $   roslaunch aruco_detect aruco_detect.launch
+      $    roslaunch aruco_detect aruco_detect.launch
       
-      $   roslaunch fiducial_slam fiducial_slam.launch
+      $    roslaunch fiducial_slam fiducial_slam.launch
       
-      $   roslaunch fiducial_slam fiducial_rviz.launch
+      $    roslaunch fiducial_slam fiducial_rviz.launch
