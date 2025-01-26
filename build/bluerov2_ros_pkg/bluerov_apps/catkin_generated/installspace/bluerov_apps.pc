@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: bluerov_apps
+Description: Description of bluerov_apps
+Version: 0.4.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: bluerov2_gazebo
+Description: Description of bluerov2_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
