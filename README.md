@@ -35,7 +35,7 @@ SLAM Commands:
       
       $   roslaunch fiducial_slam fiducial_rviz.launch
       
-======================================================================================================================================================
+Simulation Commands:
 
       $  roslaunch bluerov_ros_playground user_mav.launch
 
