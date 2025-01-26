@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<launch>
+<!-- Fiducial 0 -->
+	<param name="aruco_description" command="cat '$(find aruco_image)/urdf/urdf0/aruco_plate.urdf'" />
+
+	<node name="aruco_spawn" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -param aruco_description -model aruco_plate"/>
+
+<!-- Fiducial 1 -->
+	<param name="aruco_description_1" command="cat '$(find aruco_image)/urdf/urdf1/aruco_plate_1.urdf'" />
+
+	<node name="aruco_spawn_1" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -param aruco_description_1 -model aruco_plate_1"/>
+
+<!-- Fiducial 2 -->
+	<param name="aruco_description_2" command="cat '$(find aruco_image)/urdf/urdf2/aruco_plate_2.urdf'" />
+
+	<node name="aruco_spawn_2" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -param aruco_description_2 -model aruco_plate_2"/>
+
+<!-- Fiducial 3 -->
+	<param name="aruco_description_3" command="cat '$(find aruco_image)/urdf/urdf3/aruco_plate_3.urdf'" />
+
+	<node name="aruco_spawn_3" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -param aruco_description_3 -model aruco_plate_3"/>
+
+</launch>

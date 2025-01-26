@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="rviz" type="rviz" name="$(anon rviz)" args="-d $(find fiducial_slam)/fiducials.rviz"/>
+  	  <arg name="model" default="$(find bluerov2_description)/robots/bluerov2_default.xacro"/>
+  	  <arg name="rvizconfig" default="$(find bluerov_ros_playground)/model/model_preset.rviz" />
+  
+  	 <!-- <node name="rviz" pkg="rviz" type="rviz" required="true"  args="-d $(arg rvizconfig)"/>-->
+
+  	  <param name="robot_description" command="$(find xacro)/xacro.py --inorder $(arg model)"/>
+
+
+    	  <param name="publish_frequency" type="double" value="10.0" />
+
+    
+  
+</launch>
