@@ -23,9 +23,9 @@ To run this project the user needs to install the below extra packages and the d
 
 Click [Blue Rov 2 - Blue Robotics]([quora.com/profile/Ashish-Kulkarni-100](https://bluerobotics.com/store/rov/bluerov2/)) to see more information about the underwater vehicle.  
   
-Also the [QGroundControlApp]([quora.com/profile/Ashish-Kulkarni-100]([https://bluerobotics.com/store/rov/bluerov2/](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html))) is available giving simple use of the robotic vehicle (Moving the robot and adjusting the front camera).
+Also [QGroundControlApp]([quora.com/profile/Ashish-Kulkarni-100]([https://bluerobotics.com/store/rov/bluerov2/](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html))) is available giving simple use of the robotic vehicle (Moving the robot and adjusting the front camera).
 
-SLAM Commands:
+Commands:
     
       $   roslaunch bluerov bluerov_r1.launch
 
