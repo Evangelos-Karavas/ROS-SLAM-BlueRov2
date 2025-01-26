@@ -21,7 +21,7 @@ To run this project the user needs to install the below extra packages and the d
       -bluerov_ros_playground
     
 
-Click [Blue Rov 2 - Blue Robotics]([quora.com/profile/Ashish-Kulkarni-100]([https://bluerobotics.com/store/rov/bluerov2/](https://bluerobotics.com/store/rov/bluerov2/))) to see more information about the underwater vehicle.  
+Click [Blue Rov 2 - Blue Robotics](([https://bluerobotics.com/store/rov/bluerov2/](https://bluerobotics.com/store/rov/bluerov2/))) to see more information about the underwater vehicle.  
   
 Also [QGroundControlApp]([quora.com/profile/Ashish-Kulkarni-100]([https://bluerobotics.com/store/rov/bluerov2/](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html))) is available giving simple use of the robotic vehicle (Moving the robot and adjusting the front camera).
 
