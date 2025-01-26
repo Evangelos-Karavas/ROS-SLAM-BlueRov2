@@ -1,9 +1,8 @@
 Simultaneous Localization and Mapping algorithm for UUV (Blue Rov 2) on ROS-Melodic (Robot Operating System)  
-Each Package inside the src directory has a README.md file giving instructions on how to install properly  
 
   ![IMG_6544-scaled](https://github.com/user-attachments/assets/ac39478d-ba15-4728-8635-981c3f6bfbec)  
-
-To run this project the user needs to install extra packages and the dependencies into their ROS1-Melodic workspace
+Each Package inside the /src directory has a README.md file giving instructions on how to install each package properly  
+To run this project the user needs to install the below extra packages and the dependencies into their ROS1-Melodic workspace
 
     (Extra Packages needed)  
   
