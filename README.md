@@ -1,4 +1,5 @@
 Simultaneous Localization and Mapping algorithm for UUV (Blue Rov 2) on ROS-Melodic (Robot Operating System)  
+for mounted camera looking at the bottom
 
   ![IMG_6544-scaled](https://github.com/user-attachments/assets/ac39478d-ba15-4728-8635-981c3f6bfbec)  
 Each Package inside the /src directory has a README.md file giving instructions on how to install each package properly  
