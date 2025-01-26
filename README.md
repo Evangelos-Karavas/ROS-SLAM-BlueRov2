@@ -4,13 +4,13 @@ Simultaneous Localization and Mapping algorithm for UUV (Blue Rov 2) on ROS-Melo
   
 To run this project the user needs to install extra packages and the dependencies into their ROS1-Melodic workspace
 
-    (Packages needed to run)  
+    (Extra Packages needed)  
   
       -mavros
       -raspicam_node
       -bluerov_ros_playground (Not needed)
 
-    All the commands needed are located in a .txt file inside the src directory 
+    All the commands needed are located in a .txt file inside the All_Files_Neeed directory 
     *For more information look at the commands file provided.
 
     (The next 2 packages are only necessary for simulation)  
