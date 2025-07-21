@@ -1,8 +1,0 @@
-prefix=/home/user/catkin_ws/devel
-
-Name: aruco_image
-Description: Description of aruco_image
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
