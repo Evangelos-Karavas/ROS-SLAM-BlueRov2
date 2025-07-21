@@ -1,7 +1,0 @@
-set(bluerov2_control_SETUP_PY_SETUP_MODULE "distutils.core")
-set(bluerov2_control_SETUP_PY_VERSION "0.0.0")
-set(bluerov2_control_SETUP_PY_SCRIPTS "")
-set(bluerov2_control_SETUP_PY_PACKAGES "bluerov")
-set(bluerov2_control_SETUP_PY_PACKAGE_DIRS "src/bluerov")
-set(bluerov2_control_SETUP_PY_MODULES "")
-set(bluerov2_control_SETUP_PY_MODULE_DIRS "")

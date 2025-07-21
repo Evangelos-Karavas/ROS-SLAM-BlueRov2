@@ -1,8 +1,0 @@
-prefix=/home/user/catkin_ws/install
-
-Name: stag_detect
-Description: Description of stag_detect
-Version: 0.11.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lstag_ros
-Requires: camera_info_manager cv_bridge geometry_msgs image_transport roscpp sensor_msgs std_msgs

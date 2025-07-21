@@ -1,8 +1,0 @@
-prefix=/home/user/catkin_ws/install
-
-Name: bluerov_ros_playground
-Description: Description of bluerov_ros_playground
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
