@@ -1,8 +1,8 @@
 # Simultaneous Localization and Mapping algorithm for Blue Rov 2
 
-Each Package inside the /src directory has a README.md file giving instructions on how to install each package properly.
+Each Package inside the /src directory has a README.md file that provides instructions on how to install it properly.
 
-To run this project the user needs to install the below extra packages and the dependencies into their workspace.
+To run this project, the user must install the following packages and add their dependencies to their workspace.
 
   ### Extra Packages:  
   
@@ -17,9 +17,9 @@ To run this project the user needs to install the below extra packages and the d
       -bluerov_ros_playground
     
 
-[Blue Rov 2 - Blue Robotics](https://bluerobotics.com/store/rov/bluerov2/) to see more information about the underwater vehicle.  
+See [Blue Rov 2 - Blue Robotics](https://bluerobotics.com/store/rov/bluerov2/) to see more information about the underwater vehicle.  
   
-Also [QGroundControlApp](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html) is available for simple control of the uuv.
+See [QGroundControlApp](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html) for simple control of the uuv.
 
 ## Robot Terminal Commands:
     
