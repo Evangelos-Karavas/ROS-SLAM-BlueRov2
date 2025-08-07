@@ -1,4 +1,5 @@
-For real robot:
+Robot:
+
 
 QGroundControl: ./QGroundControl.AppImage
 
@@ -6,25 +7,14 @@ roslaunch bluerov_ros_playground user_mav.launch
 
 rosrun usb_cam usb_cam_node _camera_name:='usb_cam' _cama_frame_id:='usb_cam' _video_device:='/dev/video2' _pixel_format:='yuyv'
 
-
-
 roslaunch aruco_detect aruco_detect.launch
 
 roslaunch fiducial_slam fiducial_slam.launch
 
 roslaunch fiducial_slam fiducial_rviz.launch
-
 ==========================================================================================================
 
-rosrun tf2_ros static_transform_publisher 0 0 0 0 0 map_ned odom
-
-rosrun tf2_ros static_transform_publisher 0 0 0 0 0 odom_ned base_link
-
-rosrun tf2_ros static_transform_publisher 0 0 0 0 0 base_link_frd head_camera
-
-
-==========================================================================================================
-Simulation
+Simulation:
 
 
 roslaunch bluerov2_gazebo start_sim.launch
@@ -37,11 +27,11 @@ roslaunch fiducial_slam fiducial_rviz.launch
 
 ==========================================================================================================
 
-included in start_sim:
+included in start_sim_launch file:
 
 roslaunch uuv_gazebo_worlds ocean_waves.launch      << for world
 
-roslaunch bluerov2_gazebo start_pid_controller_demo.launch    << for submarine
+roslaunch bluerov2_gazebo start_pid_controller_demo.launch    << for robot
 
 roslaunch bluerov2_control start_pid_controller.launch      <<  for controller
 
